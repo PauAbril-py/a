@@ -1,5 +1,5 @@
 print("name")
-name=input()
+name = input()
 print("age")
-age=input()
-print("hola "+name+", la teva edat es "+age)
+age = input()
+print("hola " + name + ", la teva edat es " + age)
