@@ -1,17 +1,23 @@
-#vendes
-cv=input("")
-tv=input("")
-lv=input("")
+# vendes
+cv = int(input("Vendes de cola:			"))
+tv = int(input("Vendes de taronja:		"))
+lv = int(input("Vendes de llimona:		"))
 
-#preu
-cp=input("")
-tp=input("")
-lp=input("")
+print()
 
-#total
-ct=input("")
-tt=input("")
-lt=input("")
+# preu
+cp = int(input("Preu de cola:			"))
+tp = int(input("Preu de taronja:		"))
+lp = int(input("Preu de llimona:		"))
+
+print()
+
+# total
+# ct=int(input(""))
+# tt=int(input(""))
+# lt=int(input(""))
+
+print()
 
 # informe de ventes
 print("---------------------------------------------------------------------")
@@ -20,12 +26,12 @@ print("Producte		Vendes		Preu		Total")
 print()
 print("---------------------------------------------------------------------")
 print()
-print("Cola			"+cv+"		0,17		170000,00")
+print("Cola			", cv, "		", cp, "		", cv * cp)
 print()
-print("Taronja			"+tv+"		0,20		70000,00")
+print("Taronja			", tv, "		", tp, "		", tv * tp)
 print()
-print("Llimona			"+lv+"		0,19		100700,00")
+print("Llimona			", lv, "		", lp, "		", lv * lp)
 print()
 print("---------------------------------------------------------------------")
 print()
-print("TOTAL 340700,00")
+print("Total:	", cv * cp + tv * tp + lv * lp)
